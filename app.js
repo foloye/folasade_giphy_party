@@ -6,12 +6,12 @@ let gifEl = document.querySelector("#gifDisplay");
 
 //Global Constants
 
-const apiKey = "z9qEJKCAcrrMCA7q77qHJXLDkv111Kra";
+const apiKey = "API_KEY";
 const limit = 9;
 const rating = "g";
 const lang = "en";
 
-async submitEl.addEventListener("submit", (evt) => {
+submitEl.addEventListener("submit", (evt) => {
     evt.preventDefault();
 })
 
@@ -21,7 +21,7 @@ async function getResults() {
     let jsonReponse = await response.json();
     //return jsonReponse;
 
-    jsonPresponse.data.forEach(evt) => { displayResulst(evt)}
+    //jsonPresponse.data.forEach(evt) => { displayResulst(evt)}
 
 }
 
@@ -46,8 +46,8 @@ function displayResults(data) {
 
 function handleFormSubmit() {
     //grab value attribute
-    getResults(){
+    //getResults(){
 
-    }
+    //}
 
 }
